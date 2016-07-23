@@ -1,0 +1,24 @@
+﻿body {
+}
+
+p {
+    font-family: 'Comic Sans MS';
+    font-size: 50%;
+    color: cadetblue;
+    border: solid;
+    margin: 50px;
+}
+
+#heading {
+    color: blue;
+}
+
+h2.correct {
+    color: aqua;
+    font-family: 'Bell MT';
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}

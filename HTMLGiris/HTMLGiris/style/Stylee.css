@@ -1,0 +1,31 @@
+﻿body {
+}
+thead{
+    background-color:gold
+}
+
+#satir1{
+    background-color:blue
+}
+#satir2{
+    background-color:pink
+}
+tfoot{
+    background-color:gainsboro
+}
+ul{
+    margin:0;
+    padding:0;
+  
+    background-color:aqua;
+    list-style-type:none
+}
+li{
+    float:left;
+}
+li:hover{
+    background-color:pink;
+    color:yellow;
+    font-size:20px;
+}
+

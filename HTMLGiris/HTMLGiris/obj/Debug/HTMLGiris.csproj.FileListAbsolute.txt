@@ -1,0 +1,13 @@
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\HTMLGiris.dll.config
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\HTMLGiris.dll
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\HTMLGiris.pdb
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\mscorlib.dll
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\tr\mscorlib.resources.dll
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\normidna.nlp
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\normnfc.nlp
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\normnfd.nlp
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\normnfkc.nlp
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\normnfkd.nlp
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\obj\Debug\HTMLGiris.csprojResolveAssemblyReference.cache
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\obj\Debug\HTMLGiris.dll
+c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\obj\Debug\HTMLGiris.pdb

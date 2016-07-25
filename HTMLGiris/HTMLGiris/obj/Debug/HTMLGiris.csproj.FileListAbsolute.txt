@@ -11,3 +11,16 @@ c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\bin\
 c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\obj\Debug\HTMLGiris.csprojResolveAssemblyReference.cache
 c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\obj\Debug\HTMLGiris.dll
 c:\users\gökçen\documents\visual studio 2013\Projects\HTMLGiris\HTMLGiris\obj\Debug\HTMLGiris.pdb
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\bin\HTMLGiris.dll.config
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\bin\HTMLGiris.dll
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\bin\HTMLGiris.pdb
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\bin\mscorlib.dll
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\bin\tr\mscorlib.resources.dll
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\bin\normidna.nlp
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\bin\normnfc.nlp
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\bin\normnfd.nlp
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\bin\normnfkc.nlp
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\bin\normnfkd.nlp
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\obj\Debug\HTMLGiris.csprojResolveAssemblyReference.cache
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\obj\Debug\HTMLGiris.dll
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\HTMLGiris\obj\Debug\HTMLGiris.pdb

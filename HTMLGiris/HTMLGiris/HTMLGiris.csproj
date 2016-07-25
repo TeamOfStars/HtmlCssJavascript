@@ -68,6 +68,7 @@
     <Content Include="DivKullanim.html" />
     <Content Include="ExternalCss.html" />
     <Content Include="GenelTekrar.html" />
+    <Content Include="iFrameOrnek.html" />
     <Content Include="images\Cansiz-Gezegen.jpg" />
     <Content Include="index.html" />
     <Content Include="style\Style.css" />

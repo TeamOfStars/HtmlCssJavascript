@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        p {
+            color: gold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration:underline;
+            text-align:center;
+        }
+        #p1{
+            /*id ye özel stil tanımlama*/
+            color:red;
+        }
+        p#p1{
+            /*id ye özel stil tanımlama*/
+        }
+        .paragraf{
+            /*class a özel stil tanımlama*/
+            color:blue;
+        }
+
+        p[class=paragraf]{
+
+        }
+        
+        a{
+            text-decoration:none;
+            /*değişmesi istenilen stiller*/
+            width:100px;
+            height:100px;
+            background-color:azure;
+            
+        }
+        a:hover{
+            /*yazı tipini değiştir, rengini değiştir*/
+        }
+        a:visited{
+            /*ziyaret edildiğinde*/
+        }
+        a:active{
+            /*link aktif yani seçili iken*/
+        }
+        body{
+            background-image:url(images/bg.jpg);
+            background-repeat:repeat-x;
+            background-attachment:fixed;
+        }
+      
+    </style>
+</head>
+<body>
+    <!---->
+    <div><p id="p1" class="paragraf">stil çalışmaları</p> </div>
+    <a href="#">link</a>
+
+
+
+</body>
+</html>

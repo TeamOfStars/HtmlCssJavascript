@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Javascript ornekleri</title>
+    <meta charset="utf-8" />
+</head>
+<body onload="Topla">
+    <script type="text/javascript">
+        document.write("hello world");
+        alert("bu bir uyarı mesajıdır");
+        document.writeln(Topla(3, 10))
+        document.writeln(Yazdir());
+
+
+        function Yazdir() {
+           
+            var son = "";
+            for (var i = 1; i <= 10; i++) {
+                son += i;
+
+                if(i!=10)
+                son=son+"+";
+            }
+          
+            return son;
+        }
+
+        function Topla(sayi1,sayi2) {
+
+           // var sayi1 = 15;
+            //var sayi2 = 20;
+            var sonuc = sayi1 + sayi2;
+            //if else yapısı
+            //if (sayi1 > 5) {
+            //    sonuc = sayi1 + 10;
+            //} else {
+            //    sonuc = sayi1;
+            //}
+            //document.write(sonuc);
+            var ay = "";
+            switch (sayi1) {
+                case 1: ay = "ocak"; break;
+                case 2: ay = "Şubat"; break;
+                default: ay = "yanlış değer"; break;
+
+            }
+            return ay;
+
+            //return sonuc;
+        }
+    </script>
+</body>
+</html>

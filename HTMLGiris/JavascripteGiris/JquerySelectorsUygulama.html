@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="js/jquery-3.1.0.min.js">
+    </script>
+    <style>
+        .metin{
+            font-family:Verdana;
+            font-size:15px;
+        }
+
+        .destil{
+            text-decoration:underline;
+            color:purple;
+        }
+
+    </style>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnTikla").click(function () {
+                //odd çift olanlar, even tek olanlar
+                 $("ul#sehirler>li:odd").css("color", "pink") 
+                //$("ul>li").each(function (i) {
+                //    if (i%2==0) {
+                //        $(this).css("color", "green");
+                //    }
+                //})
+                //direkt müdahele etme
+                //  $("div.metin:contains(metin)").css("color","blue").css("text-decoration","underline");
+
+                //css den müdahele
+                 $("div.metin:contains(metin)").addClass("destil");
+                // $("tr>td:odd").css("background-color","green");
+                // $("table[id=city]").css("background-color","green");
+                // $("table#city tr>td:odd").css("background-color", "green");
+                 $("#city tr>td:even").css("background-color", "green");
+                $("#metinler p:first,p:last").css("color", "darkblue");
+                $("#metinler p:even").css("font-size", "30px");
+                $("#metinler  p:nth-child(3)").css("color","red");
+            })
+        })</script>
+    <input type="button" value="Click ME!" id="btnTikla" />
+    <hr />
+    <ul id="sehirler">
+        <li>İstanbul</li>
+        <li>Ankara</li>
+        <li>Bursa</li>
+        <li>Eskişehir</li>
+        <li>İzmir</li>
+    </ul>
+    <hr />
+    <div class="metin">
+        Burada metin kelimesi geçmektedir.
+    </div>
+    <div class="metin">
+        Burada böyle bir kelime bulunmamaktadır.
+    </div>
+    <div class="metin">
+        Burada metin kelimesi geçmektedir.
+    </div>
+    <hr />
+    <table id="city" border="1" cellpadding="2" cellspacing="3">
+        <tr>
+            <td>
+                İstanbul
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Ankara
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Bursa
+            </td>
+        </tr>
+        <tr>
+            <td>
+                izmir
+            </td>
+        </tr>
+    </table>
+    <hr />
+    <div id="metinler">
+        <p>1.Metin</p>
+        <p>2.Metin</p>
+        <p>3.Metin</p>
+        <p>4.Metin</p>
+    </div>
+</body>
+</html>

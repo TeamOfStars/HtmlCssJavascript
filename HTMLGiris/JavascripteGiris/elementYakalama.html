@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        div{
+            border:5px groove;
+            background-color:aqua;
+            float:left;
+            width:100px;
+            height:25px;
+        }
+
+    </style>
+    <script type="text/javascript">
+
+
+
+        function gotcha() {
+            var sayi1 = document.getElementById("sayi1");
+            var sayi2 = document.getElementById("sayi2");
+            var sonuc = document.getElementById("sonuc");
+            var say1 = Math.floor(Math.random() * 10) + 1;
+            var say2 = Math.floor(Math.random() * 10) + 1;
+            sayi1.innerHTML = say1;
+            sayi2.innerHTML = say2;
+            sonuc.innerHTML = say1 + say2;
+
+        }
+      
+    </script>
+</head>
+<body onload="gotcha">
+    <div id="sayi1">0</div>
+    <div id="sayi2">0</div>
+    <input type="button" onclick="gotcha()" value="tıkla" />
+    <div id="sonuc"></div>
+</body>
+</html>

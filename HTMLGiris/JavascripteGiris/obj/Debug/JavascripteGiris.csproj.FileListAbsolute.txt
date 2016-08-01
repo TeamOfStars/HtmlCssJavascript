@@ -1,0 +1,13 @@
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\bin\JavascripteGiris.dll.config
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\bin\JavascripteGiris.dll
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\bin\JavascripteGiris.pdb
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\bin\mscorlib.dll
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\bin\tr\mscorlib.resources.dll
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\bin\normidna.nlp
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\bin\normnfc.nlp
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\bin\normnfd.nlp
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\bin\normnfkc.nlp
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\bin\normnfkd.nlp
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\obj\Debug\JavascripteGiris.csprojResolveAssemblyReference.cache
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\obj\Debug\JavascripteGiris.dll
+C:\Users\GÖKÇEN\Documents\GitHub\HtmlCssJavascript\HTMLGiris\JavascripteGiris\obj\Debug\JavascripteGiris.pdb

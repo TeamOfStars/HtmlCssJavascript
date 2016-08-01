@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        div{
+            background-color:rebeccapurple;
+            float:left;
+            width:100px;
+            height:25px;
+            border:5px groove;
+            color:white;
+
+        }
+
+    </style>
+    <script>
+        function ZarAt() {
+            var zar1 = document.getElementById("zar1");
+            var zar2 = document.getElementById("zar2");
+
+            var z1 = Math.floor(Math.random() * 6) + 1;
+            var z2 = Math.floor(Math.random() * 6) + 1;
+
+            zar1.innerHTML = z1;
+            zar2.innerHTML = z2;
+
+            if ((z1+z2)%2==0) {
+                sonuc.innerHTML = (z1 + z2) + "çift geldi.Tebriks";
+            } else {
+                sonuc.innerHTML = (z1 + z2);
+            }
+
+            zar1.style.fontSize = "50px";
+            zar1.style.backgroundColor = "red";
+
+        }
+        function saatiGoster() {
+
+            setInterval(function () { document.getElementById("saat").innerHTML = Date();
+            }, 1000);
+        }
+        function selam() {
+            alert("Selam");
+        }
+        function selambaska() {
+            window.confirm("Hello World");
+        }
+        function boslukBirak()
+        {
+            for (var i = 0; i < 5; i++) {
+                document.getElementById("bosluk").innerHTML += " <br>";
+            }
+        }
+        function eposta() {
+            var cevap = confirm("Göndermek istediğinizden emin misiniz");
+            if (cevap==true) {
+                alert(document.getElementById("eposta").value+" Gönderildi");
+            }
+            else {
+                alert("İptal edildi");
+            }
+        }
+
+        function seciliOlaniGoster(deger) {
+            alert("seçilen eleman :"+deger);
+        }
+    </script>
+</head>
+<body onload="saatiGoster();boslukBirak()">
+    <div id="zar1"></div>
+    <div id="zar2"></div>
+    <input type="button" onclick="ZarAt()"  value="Zar At " />
+    <br />
+    <br />
+    <div id="sonuc"></div>
+    
+    <div id="saat" style=" width:300px; height:50px ;background-color:#1e787e "></div>
+    <p id="bosluk"></p>
+    <input type="button" value="Tıkla Selamlayalım" onclick="selam()"/>
+
+    <input type="button" value="Tıkla Başka Selamlayalım" onclick="selambaska()" />
+    <br />
+    <hr />
+    <input type="text" id="eposta"/>
+    <input type="button" value="E-posta Gönder" onclick="eposta()"/>
+    <select onchange="seciliOlaniGoster(this.value)" name="sehirler">
+        <option >ankara</option>
+        <option>istanbul</option>
+        <option>izmir</option>
+    </select>
+</body>
+</html>

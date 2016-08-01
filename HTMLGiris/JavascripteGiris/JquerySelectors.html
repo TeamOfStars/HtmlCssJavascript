@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="js/jquery-3.1.0.min.js">
+    </script>
+
+</head>
+<body>
+    <script type="text/javascript">
+        /*doküman hazır hale geldiğinde buton clicklendiğinde p ye müdahele edilir*/
+        $(document).ready(function () {
+            $("#btn").click(function () {
+               // $("#p1").html("jQuery öğreniyoruzzzzzzz...");
+
+               // $("#div2").html("dive müdahele ettik");
+
+               // $("p#p2,p#p3").html("jquery öğreniyorum");
+
+               // $("p[id^=pa]").html("biz değiştik");
+
+              // $("p[lang=tr]").html("biz tr olduk");
+
+              // $("p[lang=tr]").css("font-family", "verdana").css("font-size", "20px").css("background-color", "aqua").html("bana css uygulandı");
+               
+               $("div[id$=foto]").html("bu divlerde resim yer almaktadir..");
+
+            })
+        })
+
+    </script>
+    <div id="div1">
+        <p id="pa1b" lang="tr">JQuery öğreniyorum</p>
+        <p id="pa2b"></p>
+        <p id="p3"></p>
+        <p id="d4" lang="tr">ben diğerlerinden farklıyım kolaysa değiştir:p</p>
+        <input type="button" value="tıkla" id="btn" />
+    </div>
+    <div id="div2" style="background-color:aqua"></div>
+    <!--$(selector).yapılacak_işlem "jquery kullanımı"-->
+    <div id="afoto"></div>
+    <div id="bfoto"></div>
+    <div id="cfoto"></div>
+    <div id="a"></div>
+    <div id="ab"></div>
+
+
+</body>
+</html>

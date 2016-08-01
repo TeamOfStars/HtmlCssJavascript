@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        img, div {
+            width: 250px;
+            height: 150px;
+        }
+    </style>
+    <script src="js/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#fadeoutBtn").click(function () {
+
+                // $("#gnbtm").fadeOut(1500);
+                $("#gnbtm").fadeOut(1600, function () {
+                    //alert("resim karardı kararacak..");
+                    //alert("resim karardı");
+                });
+            })
+
+            $("#fadeinBtn").click(function () {
+
+                $("#gnbtm").fadeIn(1600);
+            });
+
+
+            $("#animateBtn").click(function () {
+
+                $("#gnbtm").animate({ "width": "100px", "height": "100px", "border-radius": "10px", "border": "solid","margin-left":"150px" }, 1500, function () {
+                    $("#gnbtm").animate({ "width": "250px", "height": "150px", "border-radius": "10px", "border": "solid","margin-right":"50px" }, 1500)
+                });
+            })
+
+            $("#toogleBtn").click(function () {
+
+                $("#gnbtm").toggle('fast');
+            });
+
+            $("#slidetoogleBtn").click(function () {
+                
+                $("#gnbtm").slideToggle("fast");
+            });
+
+        })
+
+    </script>
+    <div>
+        <img src="images/sunset.jpg" alt="resim yuklenemedi" title="gün batımı" id="gnbtm" />
+    </div>
+    <hr />
+    <div>
+        <input type="button" id="fadeoutBtn" value="fadeOut" />
+        <input type="button" id="fadeinBtn" value="fadeIn" />
+        <input type="button" id="animateBtn" value="Animate" />
+        <input type="button" id="toogleBtn" value="Toogle" />
+        <input type="button" id="slidetoogleBtn" value="Slide Toogle" />
+    </div>
+
+</body>
+</html>
